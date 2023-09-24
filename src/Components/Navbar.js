@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 // import classes from './Navbar.module.css';
-// import kaapitLogo from "../assets/kaapitLogo.png";
+import societyLogo from "../Assets/societylogo.png";
 import './Navbar.css';
 
 function NavBar(props) {
@@ -29,13 +29,18 @@ function NavBar(props) {
   return (
     <div className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbarimg">
-        <p> logoimage</p>
-        {/* <img src={kaapitLogo} alt="kaapitlogoimage" /> */}
+        <img src={societyLogo} alt="kaapitlogoimage" />
         <nav className="navbarlists">
           <a>
             About
             <span></span>
           </a>
+          <ul>
+          <li>
+            <a> Vision </a>
+            </li>
+          <li><a> Vision </a></li>
+          </ul>
           <a>
             Learn
             <span></span>
