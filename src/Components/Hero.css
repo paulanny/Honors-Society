@@ -1,11 +1,20 @@
 .herodiv  {
-    height: calc(100vh - 7rem);
-    /* background-color: red; */
+    /* height: calc(100vh - 7rem); */
+    height: 100vh;
+    background-color: rgba(227, 240, 251, 0.9);
+    background-image: url(../Assets/bgpattern.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
     margin: 0 auto;
     display: flex;
+    background-blend-mode:soft-light;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .herop  {
@@ -15,18 +24,17 @@
 }
 
 .heropone  {
-    color: #0b2545;
+    color: #8da9c4;
     letter-spacing: 1px;
 }
 
 .heroptwo  {
-    color: #8da9c4;
+    color: #0b2545;
 }
 
 .herobtn  {
     display: flex;
     flex-direction: row;
-    width:50%;
     margin: 30px auto;
     
 }
@@ -37,8 +45,7 @@
     border-radius: 10px 0 10px 0px;
     color: #0b2545;
     font-size: 20px;
-    font-family: 'DM-SANS', sans-serif;
-    width: 45%;
+    font-family: 'fira sans condensed', sans-serif;
     margin-right: 20px;
     cursor: pointer;
     text-align: center;
@@ -58,15 +65,58 @@
     border-radius: 0px 10px 0px 10px;
     color: #eef4ed;
     font-size: 20px;
-    font-family: 'DM-SANS', sans-serif;
-    width: 45%;
+    font-family:'fira sans condensed', sans-serif;
     cursor: pointer;
     text-align: center;
     transition: 0.01s ease;
+    margin-right: 20px;
 }
 
 .herobtnsolid:hover  {
     background-color: transparent;
     color: #0b2545;
     box-shadow: 0 10px 16px -6px rgba(60, 58, 58, 0.31);
+}
+
+@media (max-width:700px) {
+    .herop  {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:550px) {
+    .herop  {
+        font-size: 40px;
+    }
+    .herobtn {
+        flex-direction: column;
+        margin: 30px auto;
+        width: 100%;
+        align-items: center;
+    }
+    .herobtnsolid {
+        padding: 25px 50px;
+        margin-right: 0px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .herobtntrans {
+        padding: 25px 50px;
+        margin-right: 0px;
+        width: 80%;
+    }
+}
+
+@media (max-width:350px) {
+    .herop  {
+        font-size: 30px;
+    }
+    .herobtn {
+        flex-direction: column;
+        margin: 30px auto;
+        width: 100%;
+        align-items: center;
+    }
+
 }

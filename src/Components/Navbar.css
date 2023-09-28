@@ -6,17 +6,19 @@ a{
     text-decoration: none;
 }
 
-header{
-    position: sticky;
+.header{
+    position: fixed;
     top: 0px;
-    background-color: #8da9c4;
+    background-color: transparent;
     width: 100%;
     z-index: 1000;
 }
 
+
+
 .container{
-    max-width: 90rem;
-    padding: 1rem 1rem;
+    /* max-width: 90rem; */
+    padding: 1rem 3rem;
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -59,13 +61,14 @@ header{
 
 .nav-link{
     position: relative;
+    margin-right: 15px;
 }
 
 .nav-link > a{
     line-height: 3rem;
-    color: #fff;
+    color: #134074;
     padding: 0 .8rem;
-    font-size: .95rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -205,11 +208,26 @@ header{
   .bookkdes:hover {
     transform: translate(0, -8px);
     box-shadow: 0 10px 16px -6px rgba(65, 6, 3, 0.31);
-    background-color: #6868f6;
+    background-color: #134074;
   }
   
   .mobilenavlinks    {
     display: none;
+}
+.scrolled   {
+  background-color: #8da9c4;
+  box-shadow: 0 10px 16px -6px rgba(65, 6, 3, 0.31);
+}
+
+.scrolled .nav-link > a{
+  line-height: 3rem;
+  color:#eef4ed;
+  padding: 0 .8rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: .5s;
 }
 
   @media (max-width: 820px) {
