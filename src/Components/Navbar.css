@@ -215,7 +215,7 @@ a{
     display: none;
 }
 .scrolled   {
-  background-color: #8da9c4;
+  background-color: rgba(227, 240, 251, 0.9);
   box-shadow: 0 10px 16px -6px rgba(65, 6, 3, 0.31);
 }
 
@@ -260,6 +260,7 @@ a{
       width: 100%;
       font-family: 'DM sans', sans-serif;
       font-weight:700;
+      margin-top: 30px;
     }
   
     .menuclose {
@@ -310,12 +311,13 @@ a{
     pointer-events: none;
     color: #01012c;
     position: fixed;
-    top: 0px;
+    /* top: 0px; */
     bottom: 0px;
+    left: 0;
     z-index: 10;
     flex: 2;
     font-family: 'Fira Sans Condensed', sans-serif;
-    transform: translateX(-400px);
+    /* transform: translateX(-400px); */
     opacity: 0;
     padding-top: 100px;
     display: flex;
@@ -324,14 +326,14 @@ a{
     align-items: center;
     transition: transform 0.2s ease 0.2s, opacity 0.2s ease 0.2s;
     overflow: hidden;
-    height: 100vh;
-    width: 400px;
+    height: 90vh;
+    width: 100vw;
     /* border-radius: 45px 0 0 45px; */
     /* /* gap: 50px;  */
     /* -webkit-backdrop-filter: blur(4px);  
   backdrop-filter: blur(4px);   */
   box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
-  background-color: #8da9c4;
+  background-color: rgba(227, 240, 251, 0.9)
   }
   
   .mobilemenulinks a {
@@ -344,10 +346,11 @@ a{
       pointer-events: auto;
       color: #01012c;
       position: fixed;
-      top: 0px;
+      /* top: 0px; */
       bottom: 0px;
+      left:0;
       z-index: 10;
-      transform: translateX(400px);
+      /* transform: translateX(400px); */
       opacity: 1;
       padding-top: 100px;
       display: flex;
@@ -361,7 +364,7 @@ a{
       /* -webkit-backdrop-filter: blur(4px);  
       backdrop-filter: blur(4px);   */
       box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
-      background-color: #8da9c4;
+      background-color: rgba(227, 240, 251, 0.9)
   
   }
 
@@ -416,14 +419,18 @@ a{
 }
 
 .mobilenavlinks .dropdown-link > a{
+  
     display: flex;
-    background-color: #fff;
-    color: #0b2545;
-    padding: .5rem 1rem;
-    font-size: .9rem;
+    background-color: rgba(141, 169, 196, 0.5); /* Use rgba to set the color with opacity */
+    backdrop-filter: blur(3px); /* Apply a blur effect to the background */
+    -webkit-backdrop-filter: blur(3px); 
+    color: #eef4ed;
+    padding: 1.3rem;
+    font-size: 1.2rem;
     align-items: center;
     justify-content: space-between;
     transition: .3s;
+
 }
 
 .mobilenavlinks .dropdown-link:hover > a{
@@ -506,6 +513,7 @@ a{
 
 .mobilenavlinks .nav-link:hover .arrow{
   background-color: #50a9d6;
+  display: none;
 }
 
 .dropdown .dropdown .arrow{
@@ -533,7 +541,7 @@ a{
 
   }
 
-  @media(max-width:800px) {
+  /* @media(max-width:800px) {
     
     .mobilemenuOpen {
         transform: translateX(380px);
@@ -648,5 +656,5 @@ a{
   } 
 
   
-
+ */
 

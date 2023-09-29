@@ -4,7 +4,6 @@
     margin: 40px 0px;
     display: flex;
     align-items: flex-start;
-    /* width: 50%; */
 
 }
 
@@ -44,13 +43,11 @@
     font-size: 24px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 600;
-    /* margin: 15px 0px; */
 }
 
 .joinreasonheader   {
     font-size: 30px;
-    color: #134074;;
-    /* stroke: 7px solid #5fa2f5; */
+    color: #134074;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 800;
     margin-top: 30px;

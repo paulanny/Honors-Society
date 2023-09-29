@@ -10,7 +10,7 @@ import circle2 from "../Assets/maintop.png";
 import circle3 from "../Assets/maintop.png";
 import circle4 from "../Assets/maintop.png";
 import Divider from "../Assets/honorsdivider.png";
-import societyLogo from "../Assets/societylogo.png";
+import societyLogo from "../Assets/psychhonorslogo2.png";
 
 const Footer = () => {
   return (
