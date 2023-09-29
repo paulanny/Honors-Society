@@ -111,7 +111,7 @@ function NavBar(props) {
           >
             <ul>
               <li class="nav-link">
-                <a href="#">Home</a>
+                <a  onClick={toggleMobileMenu} href="#">Home</a>
               </li>
               <li class="nav-link">
                 <a href="#">
@@ -120,16 +120,16 @@ function NavBar(props) {
                 <div class="dropdown">
                   <ul>
                     <li class="dropdown-link">
-                      <a href="#">Vision and Mission</a>
+                      <a  onClick={toggleMobileMenu} href="#">Vision and Mission</a>
                     </li>
                     <li class="dropdown-link">
-                      <a href="#">Mentors</a>
+                      <a  onClick={toggleMobileMenu} href="#">Mentors</a>
                     </li>
                     <li class="dropdown-link">
-                      <a href="#">Department</a>
+                      <a  onClick={toggleMobileMenu} href="#">Department</a>
                     </li>
                     <li class="dropdown-link">
-                      <a href="#">Letter</a>
+                      <a  onClick={toggleMobileMenu} href="#">Letter</a>
                     </li>
                     <div class="arrow"></div>
                   </ul>
@@ -142,23 +142,23 @@ function NavBar(props) {
                 <div class="dropdown">
                   <ul>
                     <li class="dropdown-link">
-                      <a href="#">Join Society</a>
+                      <a  onClick={toggleMobileMenu} href="#">Join Society</a>
                     </li>
                     <li class="dropdown-link">
-                      <a href="#">Terms and Conditions</a>
+                      <a  onClick={toggleMobileMenu} href="#">Terms and Conditions</a>
                     </li>
                     <li class="dropdown-link">
-                      <a href="#">2023-2034 plan</a>
+                      <a  onClick={toggleMobileMenu} href="#">2023-2034 plan</a>
                     </li>
                     <div class="arrow"></div>
                   </ul>
                 </div>
               </li>
               <li class="nav-link">
-                <a href="#">Programs</a>
+                <a  onClick={toggleMobileMenu} href="#">Programs</a>
               </li>
               <li class="nav-link">
-                <a href="#">FAQs</a>
+                <a  onClick={toggleMobileMenu} href="#">FAQs</a>
               </li>
             </ul>
             <button className="menubookkdes" onClick={props.showModal}>

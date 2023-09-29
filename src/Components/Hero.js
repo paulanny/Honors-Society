@@ -1,8 +1,8 @@
 import "./Hero.css";
-import circle1 from "../Assets/maintop.png";
-import circle2 from "../Assets/maintop.png";
-import circle3 from "../Assets/maintop.png";
-import circle4 from "../Assets/maintop.png";
+import circlehead1 from "../Assets/maintop.png";
+import circlehead2 from "../Assets/maintop.png";
+import circlehead3 from "../Assets/maintop.png";
+import circlehead4 from "../Assets/maintop.png";
 
 const Hero = () => {
   return (
@@ -16,10 +16,10 @@ const Hero = () => {
         <a className="herobtntrans">Donate</a>
       </div>
       <div className="circles">
-              <img className="circle1" src={circle1} alt="circle1" />
-              <img className="circle2" src={circle2} alt="circle1" />
-              <img className="circle3" src={circle3} alt="circle1" />
-              <img className="circle4" src={circle4} alt="circle1" />
+              <img className="circlehead1" src={circlehead1} alt="circle1" />
+              <img className="circlehead2" src={circlehead2} alt="circle1" />
+              <img className="circlehead3" src={circlehead3} alt="circle1" />
+              <img className="circlehead4" src={circlehead4} alt="circle1" />
             </div>
     </div>
   );
