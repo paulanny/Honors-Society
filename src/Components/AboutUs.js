@@ -1,5 +1,5 @@
 import "./AboutUs.css";
-import Testingimage from "../Assets/testimage.jpg";
+import Testingimage from "../Assets/Psych Honors Images/aboutimage.JPG";
 
 const AboutUs = () => {
   return (
@@ -8,12 +8,14 @@ const AboutUs = () => {
         <div className="abouttexts">
           <h2 className="aboutheader">About Us</h2>
           <p className="aboutp">
-            Our to-do list now is the website, a year calendar or plan which is
-            basically a detailed plan of our activities during the first year,
-            filling in leadership positions, and most importantly reaching out
-            to professionals which will be based on our calendar. So I want to
-            reach out to multiple foreign psychologists in different areas or
-            fields to seek their exper hmm good jobtise as well.
+            Honors Society of Psychology Majors, a groundbreaking initiative
+            designed to revolutionize the landscape of psychology education in
+            Nigeria. As dedicated psychology students, we have recognized the
+            need for a community that celebrates academic excellence, fosters
+            practical research, encourages interdisciplinary collaboration, and
+            provides invaluable guidance for international study opportunities.
+            The Honors Society of Psychology Majors is here to fill that void
+            and pave the way for a new era of excellence in our field.
           </p>
           <div className="abtbtn">
             <a className="abtbtntrans">Learn More</a>

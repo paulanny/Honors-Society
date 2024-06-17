@@ -10,11 +10,12 @@ const WhyJoin = (props) => {
             <img src={Testingimage} alt="ourImage" />
           </div>
           <div className="Jointexts">
-            <p className="Jointitlep">Reason One </p>
+            <p className="Jointitlep">Study Abroad Counseling Opportunities</p>
             <p className="Joinp">
-              Our to-do list now is the website, a year calendar or plan which
-              is basically a detailed plan of our activities during the first
-              year
+              Exclusive sessions led by seasoned counselors from renowned
+              universities in the UK, US, Canada, Australia, and Europe. -
+              Personalized guidance to help members navigate their study abroad
+              journeys and chart their paths to academic excellence.
             </p>
           </div>
         </div>
@@ -23,11 +24,14 @@ const WhyJoin = (props) => {
             <img src={Testingimage} alt="ourImage" />
           </div>
           <div className="Jointexts">
-            <p className="Jointitlep">Reason Two </p>
+            <p className="Jointitlep">
+              Seminars by Professors and Doctors in Psychology and Psychiatry{" "}
+            </p>
             <p className="Joinp">
-              Our to-do list now is the website, a year calendar or plan which
-              is basically a detailed plan of our activities during the first
-              year
+              Insightful sessions led by esteemed professionals, offering a deep
+              dive into the world of psychology and psychiatry. - A unique
+              chance to learn from the best minds in the field and gain
+              invaluable knowledge.
             </p>
           </div>
         </div>
@@ -41,11 +45,12 @@ const WhyJoin = (props) => {
             <img src={Testingimage} alt="ourImage" />
           </div>
           <div className="Jointexts">
-            <p className="Jointitlep">Reason Three </p>
+            <p className="Jointitlep"> Annual Research Conference</p>
             <p className="Joinp">
-              Our to-do list now is the website, a year calendar or plan which
-              is basically a detailed plan of our activities during the first
-              year
+              A prestigious platform for members to showcase their research
+              findings and engage in thought-provoking discussions. An
+              opportunity to connect with peers, mentors, and professionals in
+              the field, fostering academic growth.
             </p>
           </div>
         </div>
@@ -54,11 +59,11 @@ const WhyJoin = (props) => {
             <img src={Testingimage} alt="ourImage" />
           </div>
           <div className="Jointexts">
-            <p className="Jointitlep">Reason Four </p>
+            <p className="Jointitlep">Reason Collaboration </p>
             <p className="Joinp">
-              Our to-do list now is the website, a year calendar or plan which
-              is basically a detailed plan of our activities during the first
-              year
+              A platform for members to share and develop their research ideas,
+              fostering independent and collaborative work throughout their
+              undergraduate journey.
             </p>
           </div>
         </div>

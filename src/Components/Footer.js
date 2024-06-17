@@ -24,7 +24,13 @@ const Footer = () => {
             <div className="looptext">
               <p className="loopfirstp">Stay in the loop</p>
               <p className="loopsecp">
-                Get highlights directly from us by following our socials
+                Get highlights directly from us by following our socials Are you
+                ready to make history? Are you eager to be part of a community
+                that will shape the future of psychology education in Nigeria?
+                If so, seize this moment and join the Honors Society of
+                Psychology Majors. Together, we will leave an indelible mark on
+                the field, empower future generations, and foster a legacy of
+                excellence.
               </p>
               <div className="loopbtn">
                 <a className="loopbtnsolid">Join Society</a>
