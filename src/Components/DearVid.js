@@ -10,17 +10,18 @@ const DearVid = () => {
     <div className="textviddiv">
       <div className="psychestudents">
         <p className="dearp">
-          <TypeEffect
-            text="Dear Psyche StudentsDear Psych Major,
-When you become a part of the Psychology Honors Society, 
-you're not just joining a group; you're embracing a commitment 
-to excellence and shared vision. As a member, you're required to
- meet and maintain a CGPA requirement of 3.5-5.0/4.0 and to actively 
- engage as an executive member. 
-We also require you to contribute to our collective success by covering a
- 7,000 naira joining fee and 5,000 naira dues, paid thrice a year. These financial commitments will fuel our initiatives, from dynamic events to groundbreaking research and the acquisition of essential software tools. "
-            delay={300}
-          />
+          Dear Psyche Students,
+          <br />
+          <br />
+          When you become a part of the Psychology Honors Society, you're not
+          just joining a group; you're embracing a commitment to excellence and
+          shared vision. As a member, you're required to meet and maintain a
+          CGPA requirement of 3.5-5.0/4.0 and to actively engage as an executive
+          member. We also require you to contribute to our collective success by
+          covering a 7,000 naira joining fee and 5,000 naira dues, paid thrice a
+          year. These financial commitments will fuel our initiatives, from
+          dynamic events to groundbreaking research and the acquisition of
+          essential software tools.
         </p>
       </div>
       <div>

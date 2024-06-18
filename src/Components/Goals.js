@@ -1,18 +1,16 @@
 import "./Goals.css";
-import Testingimage from "../Assets/testimage.jpg";
+// import Testingimage from "../Assets/testimage.jpg";
 
 const Goals = (props) => {
   return (
     <div className="allgoalsdiv">
       <div className="Goals">
         <div className="goalanimate">
-          <img src={Testingimage} alt="ourImage" />
+          <img src={props.image} alt="ourImage" />
         </div>
         <div className="Goalstexts">
-        <p className="goaltitlep">{props.title} </p>
-          <p className="goalp">
-            {props.description}
-          </p>
+          <p className="goaltitlep">{props.title} </p>
+          <p className="goalp">{props.description}</p>
         </div>
       </div>
     </div>

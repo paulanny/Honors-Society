@@ -4,7 +4,7 @@ import Instagram from "../Assets/instagram.png";
 import LinkedIn from "../Assets/linkin.png";
 import Twitter from "../Assets/twitter.png";
 import Gmail from "../Assets/gmail.png";
-import looptest from "../Assets/testimage.jpg";
+import looptest from "../Assets/LoopImg.png";
 import circle1 from "../Assets/maintop.png";
 import circle2 from "../Assets/maintop.png";
 import circle3 from "../Assets/maintop.png";

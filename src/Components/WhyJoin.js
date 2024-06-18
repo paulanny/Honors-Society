@@ -1,5 +1,6 @@
 import "./WhyJoin.css";
-import Testingimage from "../Assets/testimage.jpg";
+// import Testingimage from "../Assets/testimage.jpg";
+import WhyIcon from "../Assets/reason1.jpeg";
 
 const WhyJoin = (props) => {
   return (
@@ -7,7 +8,7 @@ const WhyJoin = (props) => {
       <div className="twojoins">
         <div className="Joins">
           <div className="joinanimate">
-            <img src={Testingimage} alt="ourImage" />
+            <img src={WhyIcon} alt="ourImage" />
           </div>
           <div className="Jointexts">
             <p className="Jointitlep">Study Abroad Counseling Opportunities</p>
@@ -21,7 +22,7 @@ const WhyJoin = (props) => {
         </div>
         <div className="Joins">
           <div className="joinanimate">
-            <img src={Testingimage} alt="ourImage" />
+            <img src={WhyIcon} alt="ourImage" />
           </div>
           <div className="Jointexts">
             <p className="Jointitlep">
@@ -42,7 +43,7 @@ const WhyJoin = (props) => {
       <div className="twojoins">
         <div className="Joins">
           <div className="joinanimate">
-            <img src={Testingimage} alt="ourImage" />
+            <img src={WhyIcon} alt="ourImage" />
           </div>
           <div className="Jointexts">
             <p className="Jointitlep"> Annual Research Conference</p>
@@ -56,7 +57,7 @@ const WhyJoin = (props) => {
         </div>
         <div className="Joins">
           <div className="joinanimate">
-            <img src={Testingimage} alt="ourImage" />
+            <img src={WhyIcon} alt="ourImage" />
           </div>
           <div className="Jointexts">
             <p className="Jointitlep">Reason Collaboration </p>
