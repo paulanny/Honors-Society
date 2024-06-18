@@ -1,10 +1,9 @@
 import "react-toastify/dist/ReactToastify.css";
 
-import { Faqs, AboutUs, Home, Join, Programs } from "./pages";
+import { Faqs, AboutUs, Home, Join, Programs } from "./Pages";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import { Loader } from "./components";
-import NotFound from "./pagesone/not-found";
+import { Loader } from "./Components";
+import NotFound from "./Pages/not-found";
 import { Suspense } from "react";
 import { ToastContainer } from "react-toastify";
 import { routes } from "./routes";
