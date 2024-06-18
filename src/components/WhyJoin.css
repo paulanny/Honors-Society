@@ -1,0 +1,138 @@
+.Joins  {
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 40px 0px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.alljoinreasonsdiv    {
+    padding: 3rem;
+    display: flex;
+    margin-bottom: 90px;
+    
+}
+
+.twojoins   {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.joinanimate  {
+    margin-right: 48px;
+}
+.joinanimate img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 80px;
+    
+}
+
+.Joinp  {
+    font-size: 14px;
+    text-align: left;
+    line-height: 35px;
+    color: #0b2545;
+    font-family: 'dm-sans', sans-serif;
+    margin-bottom: 25px;
+}
+
+.Jointitlep  {
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.joinreasonheader   {
+    font-size: 30px;
+    color: #134074;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.verticaldiv {
+    height: 300px; 
+    background-color: rgba(17, 50, 185, 0.435);
+    width: 1px;
+    margin-top: 8em;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+
+  @media (max-width:1000px) {
+    .Joins {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .joinanimate {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width:700px) {
+    .Joins {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0px 0px ;
+    }
+
+    
+    .alljoinreasonsdiv {
+        padding: 3rem;
+        display: flex;
+        margin-bottom: 90px;
+        flex-direction: column;
+    }
+
+    .verticaldiv    {
+        display: none;
+    }
+
+    .Jointexts  {
+        max-width: 375px;
+    }
+
+    .Jointitlep {
+        font-size: 24px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-weight: 600;
+        text-align: left;
+    }
+    
+.Joinp  {
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    color: #0b2545;
+    font-family: 'dm-sans', sans-serif;
+    margin-bottom: 25px;
+    max-width: 450px;
+    white-space: pre-wrap;
+}
+
+.alljoinreasonsdiv    {
+    padding: 3rem;
+    display: flex;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    
+}
+}
+
+@media(max-width:500px) {
+    .Jointitlep {
+        font-size: 20px;
+}
+
+.Joinp {
+    font-size: 14px;
+}
+
+}

@@ -1,0 +1,499 @@
+.herodiv {
+  /* height: calc(100vh - 7rem); */
+  height: 100vh;
+  /* background-color: rgba(227, 240, 251, 0.9); */
+  background-image: url(../Assets/bgpattern1.png);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  background-blend-mode: soft-light;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.herop {
+  font-family: "DM-SANS", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  z-index: 100;
+  position: relative;
+}
+
+.heropone {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.heroptwo {
+  color: #0b2545;
+}
+
+.herobtn {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  z-index: 100;
+  position: relative;
+}
+
+.herobtntrans {
+  padding: 18px 50px;
+  border: 1px solid #0b2545;
+  border-radius: 10px 0 10px 0px;
+  color: #0b2545;
+  font-size: 20px;
+  font-family: "fira sans condensed", sans-serif;
+  margin-right: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.01s ease;
+}
+
+.herobtntrans:hover {
+  background-color: #0b2545;
+  color: #eef4ed;
+  box-shadow: 0 10px 16px -6px rgba(60, 58, 58, 0.31);
+}
+
+.herobtnsolid {
+  padding: 18px 50px;
+  border: 1px solid #0b2545;
+  background-color: #0b2545;
+  border-radius: 0px 10px 0px 10px;
+  color: #eef4ed;
+  font-size: 20px;
+  font-family: "fira sans condensed", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.01s ease;
+  margin-right: 20px;
+}
+
+.herobtnsolid:hover {
+  background-color: transparent;
+  color: #0b2545;
+  box-shadow: 0 10px 16px -6px rgba(60, 58, 58, 0.31);
+}
+
+.circles img {
+  display: inline-block;
+}
+
+.circlehead1 {
+  transform: translate3d(-0.4686px, 12.9918px, 0px) scale3d(1, 1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 0.2;
+  will-change: transform;
+  top: -201px;
+  left: -131px;
+  position: absolute;
+  max-width: 35%;
+}
+
+.circlehead2 {
+  transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 0.4;
+  will-change: transform;
+  bottom: -250.5px;
+  left: 380px;
+  position: absolute;
+  max-width: 25%;
+}
+
+.circlehead3 {
+  transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 0.2;
+  will-change: transform;
+  top: 252px;
+  right: 731px;
+  position: absolute;
+  max-width: 15%;
+}
+
+.circlehead4 {
+  transform: translate3d(-0.8591px, 23.8183px, 0px) scale3d(1, 1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 0.1;
+  will-change: transform;
+  bottom: -131px;
+  right: -220px;
+  position: absolute;
+  max-width: 45%;
+}
+
+@media (max-width: 1100px) {
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -169.5px;
+    left: 204px;
+    position: absolute;
+    max-width: 25%;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 154px;
+    right: 639px;
+    position: absolute;
+    max-width: 15%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 446px;
+    right: 557px;
+    position: absolute;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 950px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 437px;
+    right: 498px;
+    position: absolute;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+  .circlehead1 {
+    transform: translate3d(-0.4686px, 12.9918px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: -138px;
+    left: -114px;
+    position: absolute;
+    max-width: 35%;
+  }
+
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -73.5px;
+    left: 87px;
+    position: absolute;
+    max-width: 25%;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 273px;
+    right: 490px;
+    position: absolute;
+    max-width: 25%;
+  }
+
+  .circlehead4 {
+    transform: translate3d(-0.8591px, 23.8183px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.1;
+    will-change: transform;
+    bottom: -88px;
+    right: -70px;
+    position: absolute;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .herop {
+    font-size: 50px;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 292px;
+    right: 374px;
+    position: absolute;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 650px) {
+  .circlehead1 {
+    transform: translate3d(-0.4686px, 12.9918px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: -240px;
+    left: -162px;
+    position: absolute;
+    max-width: 65%;
+  }
+
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -253.5px;
+    left: -31px;
+    position: absolute;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 301px;
+    right: 362px;
+    position: absolute;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 550px) {
+  .herop {
+    font-size: 40px;
+  }
+  .herobtn {
+    flex-direction: column;
+    margin: 30px auto;
+    width: 100%;
+    align-items: center;
+  }
+  .herobtnsolid {
+    padding: 25px 50px;
+    margin-right: 0px;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .herobtntrans {
+    padding: 25px 50px;
+    margin-right: 0px;
+    width: 80%;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 188px;
+    right: 317px;
+    position: absolute;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 500px) {
+  .circlehead1 {
+    transform: translate3d(-0.4686px, 12.9918px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: -210px;
+    left: -102px;
+    position: absolute;
+    max-width: 65%;
+  }
+
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -255.5px;
+    left: -226px;
+    position: absolute;
+    max-width: 100%;
+  }
+
+  .circlehead4 {
+    transform: translate3d(-0.8591px, 23.8183px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    bottom: -209px;
+    right: -241px;
+    position: absolute;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 286px;
+    right: 262px;
+    position: absolute;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 246px;
+    right: 239px;
+    position: absolute;
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 380px) {
+  .circlehead1 {
+    transform: translate3d(-0.4686px, 12.9918px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: -132px;
+    left: -72px;
+    position: absolute;
+    max-width: 65%;
+  }
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -255.5px;
+    left: -177px;
+    position: absolute;
+    max-width: 100%;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 159px;
+    right: 239px;
+    position: absolute;
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 350px) {
+  .herop {
+    font-size: 30px;
+  }
+  .herobtn {
+    flex-direction: column;
+    margin: 30px auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 253px;
+    right: 222px;
+    position: absolute;
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 330px) {
+  .circlehead2 {
+    transform: translate3d(0.3124px, -8.6612px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.4;
+    will-change: transform;
+    bottom: -188.5px;
+    left: -106px;
+    position: absolute;
+    max-width: 100%;
+  }
+
+  .circlehead4 {
+    transform: translate3d(-0.8591px, 23.8183px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    bottom: -201px;
+    right: -211px;
+    position: absolute;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .circlehead3 {
+    transform: translate3d(0.1562px, -4.3306px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0.2;
+    will-change: transform;
+    top: 167px;
+    right: 179px;
+    position: absolute;
+    max-width: 35%;
+  }
+}
