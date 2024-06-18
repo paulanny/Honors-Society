@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { NavbarLink } from "components";
-import { routes } from "routes";
+import { NavbarLink } from "../Components";
+import { routes } from "../routes";
 // import classes from './Navbar.module.css';
 import societyLogo from "../Assets/societylogo.png";
 import "./Navbar.css";
@@ -37,7 +37,7 @@ function NavBar(props) {
           <div class="nav-btn">
             <div class="nav-links">
               <ul>
-                <NavbarLink class="nav-link" label="Home" path={routes.home} />
+                <NavbarLink label="Home" path={routes.home} />
 
                 <NavbarLink
                   class="nav-link"
@@ -72,7 +72,7 @@ function NavBar(props) {
 
                   <div class="dropdown">
                     <ul>
-                      <li class="dropdown-link">
+                      <li>
                         <a href="#">Join Society</a>
                       </li>
                       <li class="dropdown-link">

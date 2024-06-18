@@ -1,1 +1,10 @@
 export { default as Loader } from "./Loader";
+export { default as Goals } from "./Goals";
+export { default as Affiliate } from "./Affiliate";
+export { default as AboutUs } from "./AboutUs";
+export { default as DearVid } from "./DearVid";
+export { default as Hero } from "./Hero";
+export { default as NavBar } from "./Navbar";
+export { default as Footer } from "./Footer";
+export { default as WhyJoin } from "./WhyJoin";
+export { default as NavbarLink } from "./NavbarLink";

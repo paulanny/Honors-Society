@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import propTypes from "prop-types";
+import "./Navbar.css";
 
 const NavbarLink = ({ label, path, onClick }) => {
   const handleClick = (e) => {
@@ -7,7 +8,7 @@ const NavbarLink = ({ label, path, onClick }) => {
     e.stopPropagation();
   };
   return (
-    <li>
+    <li className="nav-link">
       <Link to={path} onClick={handleClick}>
         {label}
       </Link>
