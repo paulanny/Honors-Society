@@ -1,6 +1,6 @@
 import "react-toastify/dist/ReactToastify.css";
 
-import { Faqs, AboutUs, Home, Join, Programs } from "./pages";
+import { Faqs, AboutUs, Home, Join, Programs } from "./pagesnew";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Loader } from "components";

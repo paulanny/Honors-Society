@@ -1,16 +1,16 @@
 import React from "react";
-import NavBar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import DearVid from "./Components/DearVid";
-import Affiliate from "./Components/Affiliate";
-import AboutUs from "./Components/AboutUs";
-import Goals from "./Components/Goals";
-import WhyJoin from "./Components/WhyJoin";
-import Footer from "./Components/Footer";
-import Divider from "./Assets/honorsdivider.png";
-import AcademicIcon from "./Assets/academic excellence.jpeg";
-import ResearchIcon from "./Assets/researchandinnovation.jpeg";
-import InterdisciplineIcon from "./Assets/interdiscipline.jpeg";
+import NavBar from "../components/Navbar";
+import Hero from "../components/Hero";
+import DearVid from "../components/DearVid";
+import Affiliate from "../components/Affiliate";
+import AboutUs from "../components/AboutUs";
+import Goals from "../components/Goals";
+import WhyJoin from "../components/WhyJoin";
+import Footer from "../components/Footer";
+import Divider from "../Assets/honorsdivider.png";
+import AcademicIcon from "../Assets/academic excellence.jpeg";
+import ResearchIcon from "../Assets/researchandinnovation.jpeg";
+import InterdisciplineIcon from "../Assets/interdiscipline.jpeg";
 
 function Home() {
   return (
